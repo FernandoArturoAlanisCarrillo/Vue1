@@ -1,5 +1,5 @@
 <html>
-    <title> Vue </title>   
+    <title> MachistS4tanico </title>   
     <head>
         <link rel="stylesheet" href="css/estilos.css">
 <link  rel="icon"   href="../Vue1/interfaz.png" type="image/png" />
@@ -7,6 +7,10 @@
     <body>
         <header>
             <script src="js/java.js"></script>
+
+            <div class="logotipo">
+                <a  id="logo" href="index.html"> <img  src="../Vue1/Logo.png" alt="Logo"> </a>
+            </div>    
             <nav class="navegacion">
                 <ul class="barra">
                     <li><a href="">Inicio</a></li>
@@ -22,8 +26,20 @@
             </nav>
         </header>     
         <div class="ligas">
-            <center><button class="boton_ligas" style="text-align: center;">Mis ligas</button></center>
-
+            <center><button  id="boton" class="boton_ligas" style="text-align: center;">Mis ligas</button></center>
         </div>
+
+        <div class="Cuerpo">
+            <h1 id="Saludo">¡JAJAJA! ¿LUZ DEL SOL? ¿EN SERIO?</h1>
+        </div>     
+        <script>
+            var texto = document.getElementById("Saludo");
+
+            var boton = document.getElementById("boton");
+            boton.onclick = function()
+            {
+                texto.style.color = "white";
+            }
+        </script>        
     </body>
 </html>

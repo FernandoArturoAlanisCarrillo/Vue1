@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url("../ryze1.jpg");
+    background-image: url("../Trundle_tradicional.jpg");
     /*background-image: url("../ryze2.jpg");*/
     background-position: center;
     background-size: cover;    
@@ -20,6 +20,7 @@ body {
     background: #fff;
     border-radius: 5px;
 }
+
 
 .navegacion ul{
     list-style: none;
@@ -67,14 +68,24 @@ body {
     opacity: 1;
 }
 
+.cuerpo h1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: yellow;
+    
+}
+
 .boton_ligas{
     text-decoration: none;
     padding: 5px;
-    font-size: 30px;
+    font-size: 50px;
     color: white;
     background-color: #3374FF;
     border-radius: 6px;
     border: #0032FF 2px solid;
+    position: relative;
+    top: 200px;
 }
 
 .boton_ligas:hover{
